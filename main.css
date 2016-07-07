@@ -1,0 +1,49 @@
+* {
+      box-sizing: border-box;
+}
+body {
+  background-color: #f5f5f1;
+  margin: 0;
+  line-height: 1.4;
+  display: block;
+}
+
+.foo {
+  width:178px;
+  display: inline-block;
+  margin:9px;
+  padding: 3px;
+  position: relative;
+  vertical-align: top;
+  overflow: hidden;
+  background-color: white;
+}
+.title {
+    color: #444;
+    font-size: 12px;
+    margin-bottom: 3px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.username {
+  color: #9A9A9A;
+  font-size: 12px;
+  margin-bottom: 3px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: inline;
+  position: relative;
+}
+
+.price {
+  color: #78c042;
+font-size: 12px;
+margin-bottom: 3px;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+float: right;
+}
